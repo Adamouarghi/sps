@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Steen Papier Schaar</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <h1>Speel Steen, Papier, Schaar!</h1>
+  
+  <div class="score">
+    <p>Jij: <span id="scoreSpeler">0</span> | Computer: <span id="scoreComputer">0</span></p>
+  </div>
+
+  <div class="choices">
+    <button data-keuze="steen"> <img src="sps.foto/steen.png" alt="steen gebaar">Steen</button>
+    <button data-keuze="papier"><img src="sps.foto/papier.png" alt="papier gebaar"> Papier</button>
+    <button data-keuze="schaar"><img src="sps.foto/schaar.png" alt="schaar gebaar"> Schaar</button>
+  </div>
+
+  <div class="resultaat">
+    <p id="spelerKeuze">Jouw keuze: </p>
+    <p id="computerKeuze">Computer: </p>
+    <p id="uitslag" class="uitslag">Uitslag: </p>
+  </div>
+
+  <button id="resetBtn">Reset Spel</button>
+
+ 
+  <script src="index.js"></script>
+</body>
+</html>
